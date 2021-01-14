@@ -1,0 +1,11 @@
+{% extends "menu/base.html" %}
+{% block content %}
+	<h2>For now this is the home section</h2>
+	<div class="border-top pt-3">
+		<a class="btn btn-info" href="{% url 'logout' %}">Logout</a>
+	</div>
+	<div class="border-top pt-3">
+		<a class="btn btn-info" href="{% url 'profile' %}">Profile</a>
+	</div>
+
+{% endblock content %}

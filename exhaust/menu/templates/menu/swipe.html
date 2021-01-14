@@ -1,0 +1,36 @@
+{% extends "menu/base.html" %}
+{% block content %}
+  <div id="SwipeVehicles">
+      <div class="container">
+        <h1 class="text-center text-black pt-5">Welcome</h1>
+        <div id="login-row" class="row justify-content-center align-items-center">
+          <div id="login-column" class="col-md-6">
+        
+            <ul class="pagination justify-content-center">
+              <li class="page-item"><a class="page-link" href="javascript:void(0);">Vehicles</a></li>
+              <li class="page-item"><a class="page-link" href="javascript:void(0);">Liked Vehicles</a></li>
+              <li class="page-item"><a class="page-link" href="javascript:void(0);">Add Vehicle</a></li>
+              <li class="page-item"><a class="page-link" href="javascript:void(0);">Filters</a></li>
+              <li class="page-item"><a class="page-link" href="javascript:void(0);">Settings</a></li>
+            </ul>
+              
+           <div class="card bg-light" style="width:550px">
+             <img class="card-img-top" src="placeholderimpreza.jpg" alt="Card image" style="width:100%">
+              <div class="card-body">
+                <h4 class="card-title">Subaru impreza</h4>
+                <p class="card-text">Some example text some example text.</p>
+                <div class="text-center">
+                 <a href="#" class="btn btn-danger" >Nope</a>
+                 <a href="#" class="btn btn-primary" >About</a>
+                 <a href="#" class="btn btn-success" >Like</a>
+                </div>
+              </div>
+            </div>
+            <br>
+      
+        </div>
+      </div>
+    </div>
+  </div>
+{% endblock content %}
+
